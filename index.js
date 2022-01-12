@@ -18,9 +18,7 @@ function fibonacci_sequence(number) {
     }
 
     return fibonacci_array;
-  } 
-  
-  else return "Only integer values greater than 0 are allowed.";
+  } else return "Only integer values greater than 0 are allowed.";
 }
 
 readline.question("Enter the number of terms: ", (number) => {
